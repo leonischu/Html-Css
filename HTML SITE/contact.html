@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<style>
+		header, footer{
+			padding: 10px;
+			background-color: green;
+			color:white;
+			text-align: center;
+		}
+		footer{
+			text-align: center;
+		}
+		nav ul li{
+			display:inline;
+			padding:20px;
+			background-color: black;
+			
+
+		}
+		a{
+			color:white;
+		}
+	</style>
+</head>
+<body>
+	<header>
+<h1> Welcome to my Portfolio</h1>
+</header>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="interest.html">Interest</a></li>
+		<li><a href="friends.html">Friend List</a></li>
+		<li><a href="Gallery.html">Gallery</a></li>
+		<li><a href="contact.html">Contact Me</a></li>
+	</ul>
+</nav>
+<h3>Contact me</h3>
+<form>
+	<fieldset>
+	<legend>Please enter your Details</legend>
+	<label>Full Name:</label>
+<input type="text" name="Full Name" placeholder="Enter full name"><br>
+<label>Password:</label>
+<input type="password" name="pass"><br>
+
+<label>Phone number:</label>
+<input type="number" name="phone" max="10" min="0"><br>
+<label>Gender:</label>
+
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<input type="radio" name="gender">Others
+<br>
+<label>Choose country</label>
+<select>
+	<option>Nepal</option>
+	<option>India</option>
+	<option>China</option>
+
+</select><br>
+<label>Your interest</label>
+<input type="checkbox" name="playing">Playing
+<input type="checkbox" name="dancing">Dancing
+<input type="checkbox" name="acting">Acting
+<br>
+<label>Message:</label>
+<textarea>
+	
+</textarea>
+<br>
+<input type="submit" name="submit">
+
+</fieldset>
+
+</form>
+</body>
+</html>
